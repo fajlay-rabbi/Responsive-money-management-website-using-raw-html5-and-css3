@@ -4,11 +4,13 @@
 
 ## Overview
 
-This repository contains the source code for a responsive money management website. The website is built using raw HTML5 and CSS3, providing a simple yet effective solution for tracking and managing finances across different devices.
+This repository contains the source code for a responsive money management website. The website is built using raw HTML5, CSS3 and JavaScript, providing a simple yet effective solution for tracking and managing finances across different devices.
 
 ## Features
 
 - Responsive design for optimal viewing on various screen sizes (desktop, tablet, and mobile).
+- Use lasted html5 and CSS3 syntax.
+- Industry good practices.
 - Straightforward and intuitive user interface for easy navigation.
 - Utilizes raw HTML5 and CSS3 for a lightweight and fast-loading website.
 
@@ -29,4 +31,7 @@ This repository contains the source code for a responsive money management websi
 # UI Inprisions From:
 
     https://www.behance.net/gallery/189723151/Budgeting-Landing-Page-UIUX-Design/modules/1072900085
+
+
+## Don't forget to give a star if you like it.
     
