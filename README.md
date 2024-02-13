@@ -9,8 +9,8 @@ This repository contains the source code for a responsive money management websi
 ## Features
 
 - Responsive design for optimal viewing on various screen sizes (desktop, tablet, and mobile).
-- Use lasted html5 and CSS3 syntax.
-- Industry good practices.
+- Using html5 and CSS3 syntax.
+- Maintaining good practices.
 - Straightforward and intuitive user interface for easy navigation.
 - Utilizes raw HTML5 and CSS3 for a lightweight and fast-loading website.
 
@@ -28,10 +28,10 @@ This repository contains the source code for a responsive money management websi
    https://github.com/fajlay-rabbi/Responsive-money-management-website-using-raw-html5-and-css3.git
 
 
-# UI Inprisions From:
+# UI Inspiration From:
 
     https://www.behance.net/gallery/189723151/Budgeting-Landing-Page-UIUX-Design/modules/1072900085
 
 
-## Don't forget to give a star if you like it.
+# Don't forget to give a star ⭐ if you like it.
     
