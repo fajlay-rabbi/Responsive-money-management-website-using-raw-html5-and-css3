@@ -23,4 +23,10 @@ This repository contains the source code for a responsive money management websi
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   https://github.com/fajlay-rabbi/Responsive-money-management-website-using-raw-html5-and-css3.git
+
+
+# UI Inprisions From:
+
+    ```bash
+    https://www.behance.net/gallery/189723151/Budgeting-Landing-Page-UIUX-Design/modules/1072900085
