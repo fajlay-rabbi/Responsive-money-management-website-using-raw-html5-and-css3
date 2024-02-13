@@ -28,5 +28,5 @@ This repository contains the source code for a responsive money management websi
 
 # UI Inprisions From:
 
-    ```https://www.behance.net/gallery/189723151/Budgeting-Landing-Page-UIUX-Design/modules/1072900085
+    https://www.behance.net/gallery/189723151/Budgeting-Landing-Page-UIUX-Design/modules/1072900085
     
