@@ -1,0 +1,37 @@
+
+.nav-btn {
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+  .line {
+    fill: #333;
+    transition: y 300ms ease-in 300ms, 
+        transform 300ms ease-in,
+        opacity 0ms 300ms;
+    transform-origin: center;
+  }
+
+  &[aria-expanded="true"] .line {
+    fill: #333;
+    transition: y 300ms ease-in, transform 300ms ease-in 300ms,
+      opacity 0ms 300ms;
+  }
+}
+
+.nav-btn[aria-expanded="true"] :is(.top, .buttom) {
+  y: 45;
+}
+
+.nav-btn[aria-expanded="true"] .top {
+  transform: rotate(45deg);
+}
+
+.nav-btn[aria-expanded="true"] .middle {
+  opacity: 0;
+}
+
+.nav-btn[aria-expanded="true"] .buttom {
+  transform: rotate(-45deg);
+}

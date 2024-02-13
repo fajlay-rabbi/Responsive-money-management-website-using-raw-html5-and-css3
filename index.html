@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MASTER MONEY</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="icon" href="./assets/money-fav.ico" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+
+        <!-- for desktop -->
+        <div class="navbar">
+          
+          <nav>
+            <ul class="nav-list">
+              <li><a href="#" class="nav-link">Home</a></li>
+              <li><a href="#" class="nav-link">About Us</a></li>
+              <li><a href="#" class="nav-link">Contact Us</a></li>
+            </ul>
+          </nav>
+
+          <div class="logo">
+            <img src="./assets/logo.png" alt="logo" />
+          </div>
+
+          <div class="nav-btn--group">
+            <div class="outline-btn btn"><a href="#">Log in</a></div>
+            <div class="filled-btn btn"><a href="#">Sign up</a></div>
+            <div class="nav-lang--btn">
+              <div class="custom-select">
+                <div class="select-selected">
+                  <img src="./assets/circle.png" alt="English" />
+                  <p>EN</p>
+                </div>
+                <div class="select-options">
+                  <div class="select-option" data-value="en">
+                    <img src="./assets/circle.png" alt="English" />
+                    <p>Eng</p>
+                  </div>
+                  <div class="select-option" data-value="fr"><p>Fr</p></div>
+                  <div class="select-option" data-value="es"><p>Er</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Mobile -->
+        <div class="mobile-nav">
+          <div class="mobile-nav-top">
+
+            <div class="hambuger-icon">
+              <button
+      type="button"
+      id="myHamBtn"
+      class="nav-btn"
+      title="Hamburger menu icon"
+      aria-expanded="false"
+      aria-controls="primary-btn"
+    >
+      <svg class="hamburger" viewBox="0 0 100 100" width="35">
+        <rect
+          class="top line"
+          width="80"
+          height="10"
+          x="10"
+          y="25"
+          rx="5"
+        ></rect>
+        <rect
+          class="middle line"
+          width="80"
+          height="10"
+          x="10"
+          y="45"
+          rx="5"
+        ></rect>
+        <rect
+          class="buttom line"
+          width="80"
+          height="10"
+          x="10"
+          y="65"
+          rx="5"
+        ></rect>
+      </svg>
+              </button>
+            </div>
+
+            <div class="mobile-nav-logo">
+              <img src="./assets/logo.png" alt="logo" />
+            </div>
+
+            <div class="nav-btn--group">
+            <div class="nav-lang--btn">
+              <div class="custom-select">
+                <div class="select-selected">
+                  <img src="./assets/circle.png" alt="English" />
+                  <p>EN</p>
+                </div>
+                <div class="select-options">
+                  <div class="select-option" data-value="en">
+                    <img src="./assets/circle.png" alt="English" />
+                    <p>Eng</p>
+                  </div>
+                  <div class="select-option" data-value="fr"><p>Fr</p></div>
+                  <div class="select-option" data-value="es"><p>Er</p></div>
+                </div>
+              </div>
+            </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="mesh-1"></div>
+      <div class="mesh-2"></div>
+
+      <div class="nav-backdrop" id="backdrop" onclick="backdropClickHandler()" data-toggle="false"></div>
+
+      <div class="nav-sidebar" id="sidebar" data-toggle="false">
+
+          <ul class="mobile-nav-list">
+            <li class="mobile-nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li><hr></li>
+            <li class="mobile-nav-item"><a href="#" class="nav-link">About Us</a></li>
+            <li><hr></li>
+            <li class="mobile-nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+          </ul>
+
+          <div class="mobile-nav-btn-group">
+            <div class="outline-btn btn"><a href="#">Log in</a></div>
+            <div class="filled-btn btn"><a href="#">Sign up</a></div>
+          </div>
+
+
+
+      </div>
+
+      <div class="container hero-container">
+        <div class="hero-subtitle">
+          <p>Simple Budgeting, Smarter Spending</p>
+        </div>
+        <div class="hero-title">
+          <h1>Master Your <span class="highlight-text">Money</span></h1>
+        </div>
+        <div class="hero-description">
+          <p>
+            Learn how to create personalized budgets, effortlessly track your
+            expenses, and gain full control of your finances. Whether you're a
+            budgeting novice or looking to refine your money management skills
+          </p>
+        </div>
+        <div class="hero-btn btn">
+          <a href="#"> Start Your Journey Today </a>
+          <i class="fa-solid fa-arrow-right"></i>
+        </div>
+        <!-- <div class="hero-img">
+        </div> -->
+        <img
+          src="./assets/hero-money-image.webp"
+          class="hero-img"
+          alt="hero-img"
+        />
+      </div>
+    </main>
+ 
+    <section class="feature-section">
+      <div class="container">
+        <div class="section-container">
+          <p>Features</p>
+          <h2>Why Choose Us</h2>
+        </div>
+
+        <div class="grid grid-two-cols">
+          
+          <div class="feature-card">
+            <div class="feature-card-icon">
+              <img src="./assets/budget.png" alt="Feature Icon" />
+            </div>
+            <div class="feature-content">
+              <div class="feature-card-title">
+                <h3>Simplified Budgeting</h3>
+              </div>
+              <div class="feature-card-description">
+                <p>
+                  With our user-friendly interface, budgeting becomes an
+                  enjoyable process, not a daunting task, We turn numbers and
+                  cents into clear, actienable insights.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="report-icon">
+              <img src="./assets/business-report.png" class="" alt="Feature Icon" />
+            </div>
+            <div class="feature-content">
+              <div class="feature-card-title">
+                <h3>Reports and Visualizations</h3>
+              </div>
+              <div class="feature-card-description">
+                <p>
+                  Access detailed reports of your financial data, allowing you to identify patterns and trends easily.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card-icon">
+              <img src="./assets/piggy-bank.png" alt="Feature Icon" />
+            </div>
+            <div class="feature-content">
+              <div class="feature-card-title">
+                <h3>Goal-Setting Piggy Banks</h3>
+              </div>
+              <div class="feature-card-description">
+                <p>
+                  Save with a purpose. Allocate funds towards specific goals, watch your savings grow and achieve your financial dreams, one piggy bank at a time.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card-icon">
+              <img src="./assets/onboarding.png" alt="Feature Icon" />
+            </div>
+            <div class="feature-content">
+              <div class="feature-card-title">
+                <h3>Smart Automation Tools</h3>
+              </div>
+              <div class="feature-card-description">
+                <p>
+                  Simplify your financial management. Set rules for recurring transactions, auto-categorize expenses, and let our platform handle the day-to-day acounting, making your life easier.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card-icon">
+              <img src="./assets/community.png" alt="Feature Icon" />
+            </div>
+            <div class="feature-content">
+              <div class="feature-card-title">
+                <h3>Community Support</h3>
+              </div>
+              <div class="feature-card-description">
+                <p>
+                  We're ready for any issues, if you encounter problems on our platform, our customer support agents are here to assist you. Reach out to us for help!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card-icon">
+              <img src="./assets/dashboard.png" alt="Feature Icon" />
+            </div>
+            <div class="feature-content">
+              <div class="feature-card-title">
+                <h3>Unified Dashboard</h3>
+              </div>
+              <div class="feature-card-description">
+                <p>
+                  Your financial world in one view. Access real-time data, track your financial progress, and make informed decisions with our comprehensive dashboard.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="special-section">
+      <div class="container special-section-content">
+
+        <div class="special-section-txt">
+          <h3>Visualiz your <br /> <span class="highlight-text">financial</span> landscape</h3>
+          <p>Take control of your finances with ease. Our intuitive platform empowers you to plan your budget, track your expenses, and save for the future. Whether you're saving for a dream vacation, managing household expenses, or simply seeking financial peace of mind, we're here to help you make it happen.</p>
+        </div>
+        <div class="special-section-img">
+          <img src="./assets/special-img.jpg" alt="special-section-img" />
+        </div>
+        
+      </div>
+    </section>  
+
+    <section class="pricing-section">
+      <div class="container">
+
+        <div class="pricing-section">
+          <h2>Pricing</h2>
+        </div>
+
+        <div class="grid grid-three-cols">
+
+          <div class="pricing-card">
+
+
+            <div class="pricing-card-top">
+              <p>Silver Package</p>
+              <h4 class="highlight-text">EUR 20 /....</h4>
+              <p>3 days trail/3 Eur</p>
+            </div>
+            <div class="pricing-card-middle">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <p>Track your finance on one dashboard</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <p>Delivered reports and graphs</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <p>Experience a risk-free environment</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <p>Comprehensive help center</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-xmark"></i>
+                  <p>Expert analysis</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-xmark"></i>
+                  <p>Unlimited budgeting</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-xmark"></i>
+                  <p>Progress tracking</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <p>Early access to raw features</p>
+                </li>
+              </ul>
+            </div>
+            <div class="pricing-card-end">
+              <div class="filled-btn btn"><a href="#">Get Started</a></div>
+            </div>
+
+
+          </div>
+
+          <div class="pricing-card ex">
+
+
+            <div class="pricing-card-top">
+              <p>Gold Package</p>
+              <h4 class="highlight-text">EUR 66 /....</h4>
+              <p>3 days trail/3 Eur</p>
+            </div>
+            <div class="pricing-card-middle">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <p>Track your finance on one dashboard</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <p>Delivered reports and graphs</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <p>Experience a risk-free environment</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <p>Comprehensive help center</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <p>Expert analysis</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <p>Unlimited budgeting</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <p>Progress tracking</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <p>Early access to raw features</p>
+                </li>
+              </ul>
+            </div>
+            <div class="pricing-card-end">
+              <div class="filled-btn btn"><a href="#">Get Started</a></div>
+            </div>
+
+
+          </div>
+
+          <div class="pricing-card">
+
+
+            <div class="pricing-card-top">
+              <p>Bronze Package</p>
+              <h4 class="highlight-text">EUR 10 /....</h4>
+              <p>3 days trail/3 Eur</p>
+            </div>
+            <div class="pricing-card-middle">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <p>Track your finance on one dashboard</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <p>Delivered reports and graphs</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <p>Experience a risk-free environment</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-xmark"></i>
+                  <p>Comprehensive help center</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-xmark"></i>
+                  <p>Expert analysis</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-xmark"></i>
+                  <p>Unlimited budgeting</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-xmark"></i>
+                  <p>Progress tracking</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <p>Early access to raw features</p>
+                </li>
+              </ul>
+            </div>
+            <div class="pricing-card-end">
+              <div class="filled-btn btn"><a href="#">Get Started</a></div>
+            </div>
+
+
+          </div>
+
+        </div>
+
+
+        
+      </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="container grid grid-big-one">
+
+        <div class="footer-content">
+          <div class="footer-page">
+            <ul>
+              <li>Useful Links</li>
+              <li>About Us</li>
+              <li>Terms of Use</li>
+              <li>Privacy Policy</li>
+              <li>Cookie Policy</li>
+              <li>Subscription and cancellation Policy</li>
+              <li>Unsubscribe</li>
+            </ul>
+          </div>
+          <div class="footer-address">
+            <ul>
+              <li>Contact information</li>
+              <li><span>Email:</span> support@budgetbscope.com</li>
+              <li><span>Phone:</span> +44 123456789</li>
+              <li><span>Working Hours:</span> Monday - Friday 00-24(CET),
+                <br>Weekends 9:00 - 21:00 (CET)
+              </li>
+              <li><span>Address:</span> 21 cromwell road, ringsfield, suffolk, <br>Beccles Nr34 8ir, United kingdom</li>
+          </div>
+        </div>
+        <div class="footer-payment">
+            <div class="footer-payment-content">
+              <div class="logo">
+                <img src="./assets/logo.png" alt="logo">
+              </div>
+              <div class="payment-icons">
+                <img src="./assets/mastercard.png" alt="Mastercard icon" />
+                <img src="./assets/visa.png" alt="Mastercard icon" />
+              </div>
+            </div>
+        </div>
+
+      </div>
+    </footer>
+
+    <div class="container copyright-section">
+      <hr>
+      <p>
+        Copyright © Budgetbscope 2023, Blindscope limited - CR: 14031689 - 21 cromwell road, ringsfield, suffolk, Beccles Nr34 8ir, United kingdom | All rights reserved.
+      </p>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
